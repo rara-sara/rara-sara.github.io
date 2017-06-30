@@ -1,0 +1,174 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+    
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Baka med Sara</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+    <!-- I header finns allt som är sidans toppdel där rubrik och menu ofta finns -->
+    <header>
+        <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+        <nav class="nav navbar-inverse navbar-static-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Startsida</a>
+                <ul class="nav navbar-nav">
+                    <!-- Listpunkterna här blir knappar för dina olika menyval i menyn -->
+                    <li><a href="menyval1.html">Småkakor</a></li>
+                    <li><a href="menyval2.html">Tårtor</a></li>
+                    <li><a href="menyval3.html">Utan ugn</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- I main finns huvudsakliga innehållet, exempelvis blogginlägg eller topplistor -->
+    <main>
+    <h1>Tårtor</h1>
+    <h4 id="skriva">De flesta tårtor är gjorda på i princip samma sätt, så här finns 2 recept på olika tårtbottnar och 2 på olila fyllningar. </h4>
+    <h3>Tårtbottnar</h3>
+
+    <div class="container">
+  <div class="row">
+
+    <div class="col-sm-6">
+       <h4>Sockerkakstårtbotten</h4>
+        <p>Recept från tasteline</p>
+    <h5>Du behöver</h5>
+    <ul>
+        <li id="s">2 st ägg</li>
+        <li id="s">2 dl socker</li>
+        <li id="s">3 dl vetemjöl</li>
+        <li id="s">2 tsk bakpulver</li>
+        <li id="s">1 dl mjölk</li>
+        <li id="s">50 gram smör, smält</li>
+    </ul>
+   <h5>Gör såhär</h5>
+   <ol>
+       <li id="s"> Sätt ugnen på 175 grader. Vispa ägg och socker pösigt. Tillsätt torrvarorna: mjöl, bakpulver och vaniljsocker. Rör om.</li>
+       <li id="s"> Blanda i mjölken och det smälta smöret. Vispa med elvisp i ca 2 minuter.</li>
+       <li id="s"> Grädda i ugnen i 45-50 minuter. Låt kakan svalna en aning innan den skärs i bitar.</li>
+   </ol>
+    </div>
+
+    <div class="col-sm-6">
+       <h4>Chokladtårtbotten</h4>
+       <p>Recept från arla</p>
+   <h5>Du behöver</h5>
+   <ul>
+       <li id="s"> 3 ägg</li>
+       <li id="s">1½ dl strösocker</li>
+       <li id="s">½ dl potatismjöl</li>
+       <li id="s">½ dl vetemjöl</li>
+       <li id="s">½ dl kakao</li>
+       <li id="s">1 tsk bakpulver</li>
+       <li id="s">½ tsk vaniljsocker</li>
+       <li id="s">1 krm salt</li>
+   </ul>
+   <h5>Gör sähär</h5>
+   <ol>
+       <li id="s">Sätt ugnen på 175°.</li>
+       <li id="s"> Smörj och bröa en form med löstagbar kant, ca 24 cm i diameter.</li>
+       <li id="s"> Vispa ägg och socker pösigt.</li>
+       <li id="s">Blanda ihop de torra ingredienserna och sikta ner i smeten.</li>
+       <li id="s"> Rör snabbt ihop till en slät smet.</li>
+       <li id="s">Häll smeten i formen.</li>
+       <li id="s"> Grädda i mitten av ugnen ca 30 min.</li>
+       <li id="s"> Låt kallna.</li>
+   </ol>
+   </div>
+
+  </div>
+</div>
+
+   
+   
+ 
+   <h3>Fyllning</h3>
+
+   <div class="container">
+  <div class="row">
+
+    <div class="col-sm-6">
+      <h4>Hallonfyllning</h4>
+      <p>Recept från tidningen Hembakat</p>
+   <h5>Du behöver</h5>
+   <ul>
+       <li id="s">400 g philadelphiaost</li>
+       <li id="s">200 g vit choklad</li>
+       <li id="s">2 dl florsocker</li>
+       <li id="s">3 dl hallon</li>
+   </ul>
+   <h5>Gör såhär</h5>
+   <ol>
+       <li id="s">Smält den vita chokladen och låt svalna.</li>
+       <li id="s"> Vispa ihop philadelphiaost och socker.</li>
+       <li id="s">Addera sedan den smälta chokladen och vispa ordentligt.</li>
+       <li id="s"> Rör till sist i hallonen.</li>
+   </ol>
+    </div>
+
+    <div class="col-sm-6">
+      <h4>Vaniljkräm</h4>
+      <p>Recept från Köket.se</p>
+   <h5>Du behöver</h5>
+   <ul>
+       <li id="s"> 1 vaniljstång</li>
+         <li id="s">5 dl mjölk, 3%</li>
+          <li id="s">1,5 dl strösocker</li>
+           <li id="s">7 ekologiska äggulor</li>
+            <li id="s">0,75 dl maizena</li>
+             <li id="s">50 g mjukt smör</li>
+   </ul>
+  <h5>Gör såhär</h5>
+  <ol>
+      <li id="s">  Dela din vaniljstång på längden med en vass kniv och skrapa ur fröna. Lägg både skal och frön i en kastrull tillsammans med mjölken. Koka upp.</li>
+      <li id="s">Vispa strösocker, äggulor och maizena luftigt med elvisp. Slå över den heta mjölken under vispning.</li>
+      <li id="s">Häll tillbaka blandningen i kastrullen och värm upp försiktigt under vispning. Så fort vaniljkrämen börjar tjockna, häll snabbt över i en kall skål.</li>
+      <li id="s">Tillsätt smöret, låt smälta och kyl vaniljkrämen i isbad eller kyl. Rör då och då i såsen så att det inte bildas skinn.</li id="s">
+  </ol>
+    </div>
+    
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+
+    <div class="col-sm-6">
+     <img id="t1" src="bilder/tårta.jfif">
+    </div>
+
+    <div class="col-sm-6">
+     <img id="t2" src="bilder/tårta nr 2.jpg">
+    </div>
+
+  </div>
+</div>
+
+  </main>
+</body>
+</html>

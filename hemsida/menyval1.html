@@ -1,0 +1,175 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+    
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Baka med Sara</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+    <!-- I header finns allt som är sidans toppdel där rubrik och menu ofta finns -->
+    <header>
+        <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+        <nav class="nav navbar-inverse navbar-static-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Startsida</a>
+                <ul class="nav navbar-nav">
+                    <!-- Listpunkterna här blir knappar för dina olika menyval i menyn -->
+                    <li><a href="menyval1.html">Småkakor</a></li>
+                    <li><a href="menyval2.html">Tårtor</a></li>
+                    <li><a href="menyval3.html">Utan ugn</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- I main finns huvudsakliga innehållet, exempelvis blogginlägg eller topplistor -->
+    <main>
+    <h1>Småkakor</h1>
+    <h4 id="skriva">Småkakor är gott och oftast inte jättesvåra att baka. Här kommer 3 recept på olika sorter.</h4>
+    <h3>Syltkakor</h3>
+ <p id="recept">Recept från Köket.se</p>
+
+    <div class="container">
+  <div class="row">
+
+    <div class="col-sm-2">
+      <h4>Du behöver</h4>
+    <ul>
+        <li id="s">200 g smör</li>
+        <li id="s">0,75 dl strösocker</li>
+        <li id="s">1 äggula</li>
+        <li id="s">1 krm bakpulver</li>
+        <li id="s">1 tsk vaniljsocker</li>
+        <li id="s">4,5-5 dl vetemjöl</li>
+        <li id="s">Röd vinbärsgelé</li>
+    </ul>
+    </div>
+
+
+    <div class="col-sm-6">
+    <h4>Gör såhär</h4>
+<ol>
+  <li id="s">Mixa ihop smör och socker, rör ner äggulan.</li>
+  <li id="s">Rör sist ner bakpulver och vanilj blandat med mjöl till en smidig deg.</li>
+  <li id="s">Lägg den i plastfilm i kylen 1 timme.</li>
+  <li id="s">Sätt ugnen på 175°.</li>
+  <li id="s">Rulla ut två rullar cirka 4 cm tjocka. Skiva degen, forma runda kakor, lägg på plåt med bakpapper.</li>
+  <li id="s">Tryck en fördjupning i varje kaka och klicka i gelé. Grädda mitt i ugnen 8-10 minuter.</li> 
+</ol>
+    </div>
+
+
+    <div class="col-sm-4">
+     <img id="sylt" src="bilder/syltkakor.jpg">
+    </div>
+
+  </div>
+</div>
+
+<h3>Schackrutor</h3>
+<p id="recept">Recept från ICA</p>
+<div class="container">
+  <div class="row">
+
+    <div class="col-sm-2">
+     <h4>Du behöver</h4>
+<ul>
+ <li id="s">125 g smör</li>
+ <li id="s">1/2 dl strösocker</li>
+ <li id="s">2 1/2 dl vetemjöl (2,5 dl motsvarar 150 g)</li>
+</ul>
+<p>Till ljusa degen</p>
+<ul>
+    <li id="s">2 tsk vaniljsocker</li>
+</ul>
+<p>Till den mörka degen</p>
+<ul>
+    <li id="s">1 msk kakao</li>
+</ul>
+    </div>
+
+    <div class="col-sm-6">
+     <h4>Gör såhär</h4>
+<ol>
+    <li id="s"> Blanda snabbt ihop smör, socker och mjöl till en deg, gärna i en matberedare.</li>
+    <li id="s">Dela degen i två lika stora delar.</li>
+    <li id="s"> Blanda vaniljsocker i den ena deghalvan och kakao i den andra.</li>
+    <li id="s"> Dela både den ljusa och den mörka delen i två delar. Rulla ut dem till längder, ca 30 cm.  Tryck till och forma rullarna fyrkantiga. Lägg ihop de fyra längderna, en ljus och en mörk underst och en mörk och en ljus överst så de bildar ett rutmönster.</li>
+    <li id="s">Låt dem ligga i kylskåpet ca 30 minuter så att det går lättare att skära. </li>
+    <li id="s"> Sätt ugnen på 200°C.</li>
+    <li id="s"> Skär längden i ca 1/2 cm tjocka skivor, och lägg dem på en plåt med bakplåtspapper.</li>
+    <li id="s"> Grädda kakorna mitt i ugnen ca 10 minuter. Låt svalna på galler.</li>
+</ol>
+    </div>
+
+    <div class="col-sm-4">
+     <img id="rutor" src="bilder/shackrutor.jpg">
+    </div>
+
+  </div>
+</div>
+
+
+<h3>Nöttoppar</h3>
+ <p id="recept">Recept från leila.se</p>
+<div class="container">
+  <div class="row">
+
+    <div class="col-sm-2">
+    <h4>Du behöver</h4>
+<ul>
+    <li id="s">50 g smör</li>
+    <li id="s">200 g hasselnötter </li>
+    <li id="s">1 dl strösocker </li>
+    <li id="s">1 ekologiskt ägg</li>
+    <li id="s">Hasselnötter till garnering</li>
+</ul>
+    </div>
+
+    <div class="col-sm-6">
+      <h4>Gör så här</h4>
+<ol>
+    <li id="s"> Sätt ugnen på 175 grader.</li>
+    <li id="s">Smält smöret. </li>
+    <li id="s" id="s"> Mixa hasselnötterna till ett fint pulver i matberedare.</li>
+    <li id="s">Blanda nötterna med smör, strösocker och ägg.</li>
+    <li id="s"> Forma smeten med fingrarna till toppar på en plåt med bakplåtspapper, sätt en hasselnöt i varje topp. Grädda gyllene i mitten av ugnen i cirka 18 minuter.</li>
+    <li id="s">Låt svalna på plåten.</li>
+</ol>
+    </div>
+
+    <div class="col-sm-4">
+      <img id="nöt" src="bilder/nöttoppar.jpg">
+    </div>
+
+  </div>
+</div>
+
+<h2 id="st">ststtststtstststtstststststststststststststststststst</h2>
+
+  </main>
+</body>
+</html>

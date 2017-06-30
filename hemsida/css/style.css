@@ -1,0 +1,96 @@
+h1{
+	text-align: center;
+}
+
+
+#sylt{
+	width: 80%;
+	height: auto;
+}
+
+
+#startsida{
+	text-align: center;
+}
+#hatt{
+	display: block;
+	margin: auto;
+	width: 20%;
+	height: auto;
+
+}
+
+
+.navbar-inverse {
+    background-color: #ff4c67;
+}
+
+
+.navbar-inverse .navbar-nav > li > a {
+    color: black;
+}
+
+
+.navbar-inverse .navbar-brand {
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+
+#skriva{
+	text-align: center;
+	font-family: Courgette;
+}
+
+h3{
+	text-align: center;
+}
+
+#recept{
+	text-align: center;
+}
+
+#rutor{
+	width: 80%;
+	height: auto;
+}
+
+#nöt{
+	width: 80%;
+	height: auto;
+}
+
+#st{
+	color: #ffffff;
+}
+
+#t2{
+	width: 70%;
+	height: auto;
+}
+
+#choklad{
+	width: 60%;
+	height: auto;
+}
+
+#ost{
+width: 80%;
+	height: auto;
+}
+
+#ris{
+	width: 75%;
+	height: auto;
+}
+
+h1{
+	font-family: Courgette;
+}
+
+p{
+	font-family: Courgette;
+}
+
+#s{
+	font-family: Courgette;
+}

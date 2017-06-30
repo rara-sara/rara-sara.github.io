@@ -1,0 +1,165 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+    
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Baka med Sara</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+    <!-- I header finns allt som är sidans toppdel där rubrik och menu ofta finns -->
+    <header>
+        <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+        <nav class="nav navbar-inverse navbar-static-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Startsida</a>
+                <ul class="nav navbar-nav">
+                    <!-- Listpunkterna här blir knappar för dina olika menyval i menyn -->
+                    <li><a href="menyval1.html">Småkakor</a></li>
+                    <li><a href="menyval2.html">Tårtor</a></li>
+                    <li><a href="menyval3.html">Utan ugn</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- I main finns huvudsakliga innehållet, exempelvis blogginlägg eller topplistor -->
+    <main>
+    <h1>Utan ugn</h1>
+    <h4 id="skriva">denna sida är perfeckt för mindre barn som inte får använda ugnen. De här 3 sorters bakelser kan man nämligen gjöra uta en ugn. </h4>
+
+ <h3>Chokladbollar</h3>
+    <p id="recept">Recept från ICA</p>
+    <div class="container">
+  <div class="row">
+
+    <div class="col-sm-4">
+      <h4>Du behöver</h4>
+    <ul>
+        <li id="s">100 g smör</li>
+        <li id="s">1 dl socker</li>
+        <li id="s">1 msk vaniljsocker</li>
+        <li id="s">3 msk kakao</li>
+        <li id="s">3 dl havregryn</li>
+        <li id="s">3 msk kallt starkt kaffe</li>
+        <li id="s">pärlsocker eller annan garnering</li>
+    </div>
+
+    <div class="col-sm-4">
+      <h4>Gör såhär</h4>
+    <ol>
+        <li id="s"> Smält smöret och låt puttra en kort stund.</li>
+        <li id="s">Rör ihop socker, vaniljsocker, kakao, havregryn, kaffe och smöret. Ställ in i kylskåp så att smeten stelnar lite, ca 1 timme.</li>
+        <li id="s">Forma bollar. Rulla i pärlsocker (gärna mångfärgat), kokos eller annan garnering.</li>
+    </ol>
+    </div>
+
+    <div class="col-sm-4">
+   <img id="choklad" src="bilder/chokladbollar.jpg">
+    </div>
+
+  </div>
+</div>
+   
+<h3>Cheesecake med vit choklad och jordgubbar</h3>
+   <p id="recept">Recept från allers.se</p>
+<div class="container">
+  <div class="row">
+
+    <div class="col-sm-4">
+      <h4>Du behöver</h4>
+   <p>Till botten</p>
+   <ul>
+       <li id="s"> 4 dl pumpakärnor</li>
+       <li id="s">20 torkade aprikoser, ca 150 g</li>
+       <li id="s">3 msk kokosfett</li>
+   </ul> 
+   <p>Till fyllning</p>
+   <ul>
+       <li id="s">300 g vit choklad</li>
+       <li id="s">2 burkar mascarponeost à 250 g</li>
+       <li id="s">3 dl jordgubbsmarmelad med fast konsistens, ca 400 g</li>
+       <li id="s">ca 5 jordgubbar</li>
+   </ul>
+    </div>
+
+    <div class="col-sm-4">
+       <h4>Gör såhär</h4>
+   <ol>
+       <li id="s"> Botten: Mixa ihop alla ingredienserna i en matberedare till en fin massa som börjar gå ihop. Tryck ut i en bakpappersklädd liten långpanna, ca 20×25 cm. Ställ i kylen.</li>
+       <liv>Smält chokladen över varmt vattenbad. Blanda ner mascarponeosten och värm på tills krämen är slät. Ta bort från vattenbadet.</li>
+       <li id="s">Värm jordgubbsmarmeladen så den blir lite flytande och rör ner slarvigt i mascarpone- och chokladkrämen. Bre ut över bottnen i formen. Skiva jordgubbarna och lägg ut på krämen så de får stelna med. Låt stå i kylen tills fyllningen satt sig och stelnat, 30–40 minuter.</li>
+   </ol>
+    </div>
+
+    <div class="col-sm-4">
+     <h2 id="st">ggg</h2>
+      <img id="ost" src="bilder/cheesecake.jpg">
+    </div>
+
+  </div>
+</div>
+   
+<h3>Frostrisbollar</h3>
+<p id="recept">Recept från alltommat.se</p>
+<div class="container">
+  <div class="row">
+
+    <div class="col-sm-4">
+     <h4>Du behöver</h4>
+     <ul>
+         <li id="s">125 g   smör</li>
+          <li id="s">125 g   florsocker</li>
+           <li id="s">1 dl    kakao</li>
+            <li id="s">1   apelsin, rivet skal av</li>
+             <li id="s">8 dl    frostris med chokladsmak, krossad</li>
+     </ul>
+    </div>
+
+    <div class="col-sm-4">
+      <h4>Gör såhär</h4>
+<ol>
+    <li id="s">Smält smöret i en kastrull.</li>
+    <li id="s"> Blanda florsocker, kakao, apelsinskal och frostis i en skål. </li>
+    <li id="s"> Häll smöret över och blanda runt.</li>
+    <li id="s"> Låt vila en stund så att smöret svalnar något.</li>
+    <li id="s">Krama ihop till bollar med hjälp av handen.</li>
+    <li id="s">Låt dem kallna.</li>
+    <li id="s">Förvara dem i en plastlåda med lock och låt dem stå svalt tills de ska serveras.</li>
+</ol>
+    </div>
+
+    <div class="col-sm-4">
+    <h3 id="st">ggg</h3>
+     <img id="ris" src="bilder/frostrisbollar.jpg">
+      <h2 id="st">ggg</h2>
+    </div>
+
+  </div>
+</div>
+
+    </main>
+</body>
+</html>
